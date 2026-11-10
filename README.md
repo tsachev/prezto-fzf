@@ -84,15 +84,6 @@ Open a new shell, or run `exec zsh`.
 git -C "<module directory>/fzf" pull
 ```
 
-### If completion or key bindings do not appear
-
-Prezto caches the completion scan in _`~/.cache/prezto/zcompdump`_ for 20 hours.
-After installing `fzf`, delete the cache once and start a new shell:
-
-```sh
-rm ~/.cache/prezto/zcompdump* && exec zsh
-```
-
 ## Key bindings
 
 - <kbd>Ctrl</kbd> + <kbd>R</kbd> searches the command history.
